@@ -52,6 +52,9 @@ body{
  .a-green{
   color: green
  }
+ .a-grey{
+  color: grey
+ }
  a:hover{
    color: white;
    text-decoration: none;
@@ -72,6 +75,13 @@ body{
    color: goldenrod;
    text-align: center;
  }
+ h4{
+  font-size: 40px;
+  font-family: Amatic SC;
+  font-weight: bold;
+  color: #990000;
+  text-align: center;
+}
  h3{
   font-size: 40px;
   font-family: Amatic SC;

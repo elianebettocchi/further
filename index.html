@@ -29,12 +29,22 @@
         <div class="col-lg-8">
 <form onSubmit="return false" action="">
 <p><input type="text" placeholder="material" id="textOne"> <input type="text" placeholder="verb (passive form)" id="textTwo"> <input type="text" placeholder="place or object" id="textThree"> <input type="text" placeholder="verb (present tense)" id="textFour"> <input type="text" placeholder="surface" id="textFive"> <input type="text" placeholder="noun or adjective" id="textSix"> <input type="text" placeholder="noun" id="textSeven"> <input type="text" placeholder="adjective" id="textEight"> <input type="text" placeholder="adjective" id="textNine"></p>
-<button type="button" id="button" class="button" onclick="createParagraph()">Write:</button>
+<button type="button" id="button" class="btn btn-outline-danger" onclick="createParagraph()"><h4>Write:</h4></button>
 <div id="answer"></div>
 </form>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe_NY5_eA82IKI-0dCNltbjOz0sBiIxthfIZZjAMbUm7YD1rg/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0" scrolling="no">Loading…</iframe>
+<br>
+<button class="btn btn-outline-danger"><h2>
+<a class="a-red" href="#send" data-toggle='tab'>Copy your text and send it to yourself</a>
+    </h2></button>
+    <div class="container text-justify">
+        <div class="tab-content py-4">
+         <div class="tab-pane active text-white" id="empty"></div>
+     <div class="tab-pane text-white" id="send">
+         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe_NY5_eA82IKI-0dCNltbjOz0sBiIxthfIZZjAMbUm7YD1rg/viewform?embedded=true" width="100%" height="900" frameborder="0" marginheight="0" marginwidth="0" scrolling="no">Loading…</iframe>
+     </div>
 </div>
 </div>
+<div class="container">
 <div class="row justify-content-center">
     <div class="col-12 text-center">
         <img class="img-fluid" src="./img/tunel.jpg" alt="tunnel">
@@ -45,10 +55,10 @@
 </b></p>
             </div>   
                </div>
-</div>
+</div></div></div></div>
 <footer class="footer py-3">
     <div class="container px-4 px-lg-5">
-        <div class="small text-center align-items-end"><a class="a-red text-decoration-none" href="https://elianebettocchi.github.io/incorporais" target="_blank" rel="cc:attributionURL noopener noreferrer">Incorporeal LudoNarratives</a> © 2008 by <a class="a-red text-decoration-none" href="https://elianebettocchi.github.io/portfolio" target="_blank" rel="cc:attributionURL noopener noreferrer">Eliane Bettocchi</a> &amp; Carlos Klimick is licensed under <a class="a-red text-decoration-none" href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a>.
+        <div class="small text-center align-items-end"><a class="a-red text-decoration-none" href="https://incorporealgames.netlify.app/" target="_blank" rel="cc:attributionURL noopener noreferrer">Incorporeal LudoNarratives</a> © 2008 by <a class="a-red text-decoration-none" href="https://lilithstudio.netlify.app/" target="_blank" rel="cc:attributionURL noopener noreferrer">Eliane Bettocchi</a> &amp; Carlos Klimick is licensed under <a class="a-red text-decoration-none" href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a>.
 </footer>
 <script src="app.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

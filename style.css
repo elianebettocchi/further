@@ -11,6 +11,18 @@ body{
  .darkred{
    background-color: #440000;
  }
+ .darkgreen{
+  background-color: rgb(0, 45, 0);
+ }
+ .darkyellow{
+  background-color: rgb(56, 34, 0);
+ }
+ .darkgrey{
+  background-color: rgb(59, 59, 59);
+ }
+ .darkorange{
+  background-color: rgb(56, 22, 0);
+ }
  .red-text {
    font-size: 80px;
    font-family: Amatic SC;
@@ -117,12 +129,13 @@ body{
  background-color: black;
  }
  .footer{
-   background-color: #440000;
+   background-color: #220000;
    color: #ccc;
    font-family: 'Courier New', Courier, monospace;
  }
  .card{
-background-color: #220000;
+background-color: rgba(0, 0, 0, 0);
+border: 1px solid #eee;
  }
  .blackred{
   background-color: #220000;

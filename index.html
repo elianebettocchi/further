@@ -30,94 +30,76 @@
         <div class="col-12 text-center">
             <img class="img-fluid" src="./img/tunel.jpg" alt="">
         </div>
-        <div class="col-lg-8">
+        <div class="col-lg-9">
 <form onSubmit="return false" action="">
 <p><input type="text" placeholder=" material " id="textOne"> <input type="text" placeholder=" verb (passive form) " id="textTwo"> <input type="text" placeholder=" place or object " id="textThree"> <input type="text" placeholder=" verb (present tense) " id="textFour"> <input type="text" placeholder=" surface " id="textFive"> <input type="text" placeholder=" noun or adjective " id="textSix"> <input type="text" placeholder="noun" id="textSeven"> <input type="text" placeholder=" adjective " id="textEight"> <input type="text" placeholder=" adjective " id="textNine"></p>
 <button type="button" id="button" class="btn btn-outline-danger" onclick="createParagraph()"><h4>Write:</h4></button>
 <div id="answer"></div>
 </form>
 <h3><a class="a-red" href="#empty0" data-toggle="tab"><i class="bi bi-caret-up-fill"></i></a></h3>
-<div class="container text-justify">
-    <div class="tab-content">
-     <div class="tab-pane active text-white" id="empty"></div>
+<div class="container text-justify tab-content">
+    <div class="tab-pane active text-white" id="empty"></div>
 <div class="tab-pane text-white" id="send">
  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe_NY5_eA82IKI-0dCNltbjOz0sBiIxthfIZZjAMbUm7YD1rg/viewform?embedded=true" width="100%" height="900" frameborder="0" marginheight="0" marginwidth="0" scrolling="no">Loading…</iframe>
 </div>
 </div>
-</div>
-    <div class="container text-justify">
-        <div class="tab-content">
-         <div class="tab-pane active text-white" id="empty0"></div>
-         <div class="tab-pane text-white" id="choose1">
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe name="choose1" class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vRdVExTbBPGcUFEVEfKxH9ygWpVaUBrbRYagXK_guaOusUhDGUEB5OChzbtevwW0hQo6o8HkW7X60o7/embed?start=false&loop=false&delayms=60000" scrolling="no"></iframe><br><br>
+
+    <div class="container-fluid text-justify tab-content mb-5">
+       <div class="tab-pane active text-white" id="empty0"></div>
+         <div class="tab-pane text-white card" id="choose">
+            <div class="col-12 embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vRdVExTbBPGcUFEVEfKxH9ygWpVaUBrbRYagXK_guaOusUhDGUEB5OChzbtevwW0hQo6o8HkW7X60o7/embed?start=false&loop=false&delayms=60000" scrolling="no"></iframe><br><br>
                 </div>
-            <p class="text-center"><b><i>1. then choose:
+            <h2>
             <a class="a-orange" href="#choose2" data-toggle="tab"><i class="bi bi-check-square"></i></a>
-            <a class="a-yellow" href="https://docs.google.com/presentation/d/e/2PACX-1vRem_k2gop1bItJByfgXVkLcvQQb2SNDMW3yFX0RF9crP8c0gT18zgBjgTsDmgmrxcSQt2I7EeXx443/embed?start=false&loop=false&delayms=60000" target="choose1"><i class="bi bi-x-square"></i></a></i>
-                <a class="dropdown-toggle a-yellow" href="#choose1" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
-                    <div class="dropdown-menu p-2 blackred" aria-labelledby="dropdownMenuLink"><h2>
-                        <a class="a-red" href="#eshu" data-toggle='tab'>[1]</a>
-                        <a class="a-green" href="#native" data-toggle='tab'>[2]</a>
-                        <a class="a-grey" href="#blackelder" data-toggle='tab'>[3]</a>
-                        <a class="a-yellow" href="#gypsy" data-toggle='tab'>[4]</a>
-                        <a class="a-red" href="#empty1" data-toggle='tab'><i class="bi bi-caret-up-fill"></i></a>
-                        </h2>
+            <a class="a-yellow" href="#choose1" data-toggle="tab"><i class="bi bi-x-square"></i></a></i>
+            </h2></div>
+            <div class="tab-pane card" id="choose1">
+                <div class="col-12 embed-responsive embed-responsive-16by9">
+                    <iframe name="frame" class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vRem_k2gop1bItJByfgXVkLcvQQb2SNDMW3yFX0RF9crP8c0gT18zgBjgTsDmgmrxcSQt2I7EeXx443/embed?start=false&loop=false&delayms=60000" scrolling="no"></iframe><br><br>
+                    </div>
+                            <h2>
+                            <a class="a-red" href="#um" data-toggle='tab'>[1]</a>
+                            <a class="a-green" href="#dois" data-toggle='tab'>[2]</a>
+                            <a class="a-grey" href="#tres" data-toggle='tab'>[3]</a>
+                            <a class="a-yellow" href="#quatro" data-toggle='tab'>[4]</a>
+                            <a class="a-red" href="#cinco" data-toggle='tab'><i class="bi bi-caret-up-fill"></i></a>
+                            </h2>
+                    </div>
+                    <div class="tab-pane card" id="um">
+                        <iframe src="./choose/1.html" width="100%" height="3000" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe>
                 </div>
-            </b></p></div>
-            <div class="tab-pane text-white" id="choose2">
-                <div class="card embed-responsive embed-responsive-16by9">
+                <div class="tab-pane card" id="dois">
+                    <iframe src="./choose/2.html" width="100%" height="3000" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe>
+            </div>
+            <div class="tab-pane card" id="tres">
+                <iframe src="./choose/3.html" width="100%" height="3000" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe>
+        </div>
+        <div class="tab-pane card" id="quatro">
+            <iframe src="./choose/4.html" width="100%" height="3000" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe>
+    </div>
+    <div class="tab-pane card" id="cinco">
+        <iframe src="./choose/5.html" width="100%" height="3000" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe>
+</div>
+            <div class="tab-pane card" id="choose2">
+                <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vQmmSUJvUAVR_q2MDuroJBDKpwJkjR8HSpcPA040hzwfkrgEXBVuWxWzwWg_BqVJZ3WVhMDVzfxy2DR/embed?start=false&loop=false&delayms=60000" scrolling="no"></iframe><br><br>
                     </div>
-                <p class="text-center"><b><i>2. then choose: <a class="a-orange" href="#one" data-toggle="tab"><i class="bi bi-arrow-up-square"></i></a> <a class="a-orange" href="#two" data-toggle="tab"><i class="bi bi-x-square"></i></a> <a class="a-red" href="#empty0" data-toggle="tab"><i class="bi bi-caret-up-fill"></i></a>;
-        </i></b></p></div>
-           <div class="tab-pane text-white" id="choose3">
-            <div class="card embed-responsive embed-responsive-16by9">
+                <h2><a class="a-orange" href="#one" data-toggle="tab"><i class="bi bi-arrow-up-square"></i></a> <a class="a-orange" href="#two" data-toggle="tab"><i class="bi bi-x-square"></i></a> <a class="a-red" href="#empty0" data-toggle="tab"><i class="bi bi-caret-up-fill"></i></a></h2>
+        </div>
+           <div class="tab-pane card" id="choose3">
+            <div class="embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vRejz4SXD8yTJD-L77SN05VMFAUe52skBbrpTAUGuKYU1WkUxIgg6eAjcCL4dlpdUQVwJ9iG71w2UUD/embed?start=false&loop=false&delayms=60000" scrolling="no"></iframe><br><br>
                 </div>
-            <p class="text-center"><b><i>3. then <a class="a-yellow" href="#sheet" data-toggle="tab"><i class="bi bi-caret-down-fill"></i></a> <a class="a-red" href="#empty1" data-toggle="tab"><i class="bi bi-caret-up-fill"></i></a>.
-        </i></b></p></div>
-        </div></div>
-        <div class="container text-justify mb-5">
-            <div class="tab-content">
-             <div class="tab-pane active text-white" id="empty1"></div>
-   <div class="tab-pane text-white darkred" id="eshu">
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vQB7EqFaenej3UUny1siUJFG_BPErmo8DTDjn6LGxbnu9FQdDd_2VmvNhqNOqF_nCvgBo5z3k2AZSYN/embed?start=false&loop=false&delayms=6000" scrolling="no"></iframe><br><br>
-                </div>
-             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc5Qx5Q5NaM08MztAfinIXiTnSYqcGeyhZzqacW66c9dzyLpQ/viewform?embedded=true" width="100%" height="4000" frameborder="0" marginheight="0" marginwidth="0" scrolling="no">Loading…</iframe>
-         </div>
-         <div class="tab-pane text-white darkgreen" id="native">
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vQYz0qr1JzCz1KCYx7mfPMEa9Ma7oRf51MDWM1KJviWvoUrBA6BHpF4HiPmi5wjGkh0q5UYGc1g7fwG/embed?start=false&loop=false&delayms=60000" scrolling="no"></iframe><br><br>
-                </div>
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfsDsjA9kJh8KrYgAg4KpGVEu98yNtcroQ5Rov8C4ZU6Pq1Ig/viewform?embedded=true" width="100%" height="4000" frameborder="0" marginheight="0" marginwidth="0" scrolling="no">Loading…</iframe>
+            <h2><a class="a-yellow" href="#sheet" data-toggle="tab"><i class="bi bi-caret-down-fill"></i></a> <a class="a-red" href="#empty1" data-toggle="tab"><i class="bi bi-caret-up-fill"></i></a></h2>
         </div>
-        <div class="tab-pane text-white darkgrey" id="blackelder">
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vS8JV9r3xsReCYqosC0K1YXncpXzOxcHZG49IHIxV88WDmdKqouWJaFGptEL-EYosp9dnp9faNTCc5q/embed?start=false&loop=false&delayms=60000" scrolling="no"></iframe><br><br>
-                </div>
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSet_5HKRGiQKM0o4mec50YZw6PtE35ViIOYrLQV_joSDRcRKA/viewform?embedded=true" width="100%" height="4000" frameborder="0" marginheight="0" marginwidth="0" scrolling="no">Loading…</iframe>
+        <div class="tab-pane card" id="one">
+            <iframe src="./choose/5.html" width="100%" height="4000" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe>
         </div>
-        <div class="tab-pane text-white darkyellow" id="gypsy">
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vSIuyzkSnjuszkIONaB25FVVQwSAZtTM_gN4GgC3EN7_-vgTUvOdaiml3J-Mm3Oh3BztkjdT4KVQdMt/embed?start=false&loop=false&delayms=60000" scrolling="no"></iframe><br><br>
-                </div>
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdt_j3PsGm7bp7i0MIpa6pF9JAB5fZe_0HnHM9o3W1B6f4qjw/viewform?embedded=true" width="100%" height="4000" frameborder="0" marginheight="0" marginwidth="0" scrolling="no">Loading…</iframe>
-        </div>
-        <div class="tab-pane text-white darkorange" id="one">
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe name="frame1" class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vS-63iB7lr0qfIS5pQ9Xp70jSgfWiFHGz0aLdoUfO2ujB6DJsLLi3TI9I3xHwHb87ecd5zHH8QOIx0-/embed?start=false&loop=false&delayms=60000" scrolling="no"></iframe><br><br>
-                </div>
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdNC9pYXbgML7dJ-T6nJJsVRbMGSc4ZzEmtLjDpSGkgvmV1ow/viewform?embedded=true" width="100%" height="4000" frameborder="0" marginheight="0" marginwidth="0" scrolling="no">Loading…</iframe>
-        </div>
-        <div class="tab-pane text-white darkorange" id="two">
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe name="frame1" class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vRP94AzobAv6M0ryvTbOVmt4-qZge7NyIm2QWdGWF6jVGPndaxqgfuo55lW3cjZdK7aBVyPaXQOOWba/embed?start=false&loop=false&delayms=60000" scrolling="no"></iframe><br><br>
-                </div>
-           <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfaX-25vyHZqJNFzohRYvh482ebxxPaw7KR-87lhLgofAbA0Q/viewform?embedded=true" width="100%" height="4000" frameborder="0" marginheight="0" marginwidth="0" scrolling="no">Loading…</iframe>
+        <div class="tab-pane card" id="two">
+           <iframe src="./choose/6.html" width="100%" height="4000" frameborder="0" marginheight="0" marginwidth="0" scrolling="no">Loading…</iframe>
        </div>
-       <div class="tab-pane text-white darkyellow" id="sheet">
+       <div class="tab-pane card" id="sheet">
         <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vRHIqM6d-7XV1F7qHG5GdUfappfSLFJf1dbD3h4NKSYjD4r5mVxEnEQEOZgjgfghr3f28PWwrAjXD46/embed?start=false&loop=false&delayms=60000" scrolling="no"></iframe><br><br>
             </div>
@@ -127,7 +109,7 @@
      </div> 
     </div>   
        </div>
-</div></div></div></div></div></div>
+
 <footer class="footer py-3">
     <div class="container px-4 px-lg-5">
         <div class="small text-center align-items-end"><a class="a-red text-decoration-none" href="https://incorporealgames.netlify.app/" target="_blank" rel="cc:attributionURL noopener noreferrer">Incorporeal LudoNarratives</a> © 2008 by <a class="a-red text-decoration-none" href="https://lilithstudio.netlify.app/" target="_blank" rel="cc:attributionURL noopener noreferrer">Eliane Bettocchi</a> &amp; Carlos Klimick is licensed under <a class="a-red text-decoration-none" href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a>.

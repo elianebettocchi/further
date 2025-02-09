@@ -3,7 +3,8 @@ body{
     padding: 0px;
     margin: 0px;
     color: #ccc;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Amatic SC;
+    font-weight: bold;
  }
  .black{
    background-color: black;
@@ -41,7 +42,6 @@ body{
    font-family: Amatic SC;
    font-weight: bold;
    color: goldenrod;
-   text-align: center;
  }
  p, li{
     font-size: 40px;
@@ -84,15 +84,13 @@ body{
    font-size: 40px;
    font-family: Amatic SC;
    font-weight: bold;
-   color: goldenrod;
-   text-align: center;
+   color: #999;
+   
  }
  h4{
-  font-size: 40px;
   font-family: Amatic SC;
   font-weight: bold;
-  color: #990000;
-  text-align: center;
+  font-size: 40px;
 }
  h3{
   font-size: 40px;
@@ -139,4 +137,35 @@ border: 1px solid #eee;
  }
  .blackred{
   background-color: #220000;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  color: white;
+  font-size: 40px;
+  width: 40%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.bottom {
+  position: absolute;
+  top: 60%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  color: white;
+  font-size: 40px;
+  width: 100%;
+}
+.top {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  color: white;
+  font-size: 40px;
+  width: 80%;
 }

@@ -67,6 +67,10 @@ body{
  .a-grey{
   color: grey
  }
+ a{
+  color: #cc0000;
+  text-decoration: none;
+}
  a:hover{
    color: white;
    text-decoration: none;

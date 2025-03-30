@@ -1,7 +1,7 @@
 body{
     background-image: url("../img/cave.jpg");
- background-repeat: repeat;
- background-position: right top;
+    background-repeat: repeat;
+    background-position: right top;
     color: #ccc;
     font-family: Amatic SC;
     font-weight: bold;

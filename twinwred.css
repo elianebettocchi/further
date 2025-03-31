@@ -1,9 +1,7 @@
 body{
-    background-image: url("./img/cave.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
+    background-color:black;
+    padding: 0px;
+    margin: 0px;
     color: #ccc;
     font-family: Amatic SC;
     font-weight: bold;
@@ -54,23 +52,8 @@ body{
  .p-center{
    text-align: center;
  }
- .a-red{
-   color: #cc0000;
- }
- .a-orange{
-   color: chocolate;
- }
- .a-yellow{
-  color: goldenrod;
- }
- .a-green{
-  color: green
- }
- .a-grey{
-  color: grey
- }
  a{
-  color: chocolate;
+  color: darkred;
   text-decoration: none;
 }
  a:hover{
